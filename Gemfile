@@ -18,6 +18,8 @@ group :test do
 end
 
 gem 'sass-rails'
+gem 'bootstrap-sass'
+gem 'sprockets', '2.11.0'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
