@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.0'
@@ -14,9 +14,10 @@ group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
   gem 'rb-notifu'
-  gem 'wdm'
+  gem 'factory_girl_rails'
 end
 
+gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'sass-rails'
 gem 'bootstrap-sass'
 gem 'sprockets', '2.11.0'
