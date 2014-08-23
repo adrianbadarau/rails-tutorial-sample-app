@@ -53,8 +53,6 @@ p {
   line-height: 1.7em;
 }
 
-
-
 /* header */
 
 #logo {
@@ -167,12 +165,14 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
+
 input.btn.btn-large.btn-primary {
   width: 30%;
   margin: 0 auto;
   /* float: left; */
   display: block;
 }
+
 #error_explanation {
   color: #f00;
   ul {
