@@ -114,6 +114,19 @@ footer ul li {
   box-sizing: border-box;
 }
 
+.error_explanation {
+  /* border: 1px solid red; */
+  color: red;
+}
+
+.alert-notice {
+  background: gainsboro;
+}
+
+.field_with_errors {
+  background: red;
+}
+
 a.btn.btn-lg.btn-primary {
   margin: 0 auto;
   display: block;
@@ -177,5 +190,18 @@ input.btn.btn-large.btn-primary {
   ul {
     list-style: none;
     margin: 0 0 18px 0;
+  }
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid gainsboro;
+    &:last-child {
+      border-bottom: 1px solid gainsboro;
+    }
   }
 }

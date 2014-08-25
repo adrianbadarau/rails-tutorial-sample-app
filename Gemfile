@@ -21,6 +21,9 @@ end
 
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'sass-rails'
+gem 'faker'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 gem 'sprockets', '2.11.0'
 gem 'uglifier'
 gem 'coffee-rails'

@@ -1,0 +1,8 @@
+
+<% provide :title , 'All Users' %>
+<h1>All Users</h1>
+<%= will_paginate @users, renderer: BootstrapPagination::Rails %>
+<ul class="users">
+  <%= render @users %>
+</ul>
+<%= will_paginate @users, renderer: BootstrapPagination::Rails %>
