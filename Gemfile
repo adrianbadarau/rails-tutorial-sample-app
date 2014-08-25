@@ -15,11 +15,12 @@ group :test do
   gem 'capybara'
   gem 'rb-notifu'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'sass-rails'
-gem 'bootstrap-sass'
 gem 'sprockets', '2.11.0'
 gem 'uglifier'
 gem 'coffee-rails'
