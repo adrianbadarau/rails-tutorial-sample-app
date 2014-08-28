@@ -23,6 +23,11 @@ module SessionsHelper
     user == current_user
   end
 
+  def signed_in_user
+    store_location
+    redirect_to(signin_path, notice: 'Please Sign In') unless signed_in?
+  end
+
   def sign_out
     current_user.update_attribute(:remember_token, User.digest(User.new_remember_token))
   end
